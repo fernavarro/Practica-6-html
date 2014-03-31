@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>Practica 6</title>
+<body bgcolor="#FFCC66">
+<h1 align="center" >Guardar</h1>
+<hr>
+<form method="POST" action="Guardar.php">
+<table border=1>
+<td><h3>Abarrotes</td></h3>
+<td><h3>Productos</td></h3>
+<td><h3>$ Precio</td></h3>
+<tr>
+<td><h3>Producto 1</td></h3>
+<td><input type = "text" name="Producto1" id="Producto1" size="20"></td>
+<td><input type = "text" name="Precio1" id="Precio1" size="20"></td>
+</tr>
+<tr>
+<td><h3>Producto 2</td></h3>
+<td><input type = "text" name="Producto2" id="Producto2" size="20"></td>
+<td><input type = "text" name="Precio2" id="Precio2" size="20"></td>
+</tr>
+<tr>
+<td><h3>Producto 3</td></h3>
+<td><input type = "text" name="Producto3" id="Producto3" size="20"></td>
+<td><input type = "text" name="Precio3" id="Precio3" size="20"></td>
+</tr>
+</table>
+<p></p>
+<input type="submit" value="Enviar">
+</from>
+</head>
+</body>
+</html>

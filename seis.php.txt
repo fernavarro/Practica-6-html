@@ -1,0 +1,45 @@
+<?php
+$Producto1=$_POST["Producto1"];
+$Precio1=$_POST["Precio1"];
+$Producto2=$_POST["Producto2"];
+$Precio2=$_POST["Precio2"];
+$Producto3=$_POST["Producto3"];
+$Precio3=$_POST["Precio3"];
+$subtotal=$Precio1+$Precio2+$Precio3;
+$iva=$subtotal*.16;
+$total=$iva+$subtotal;
+?>
+<html>
+<body>
+<table border=1>
+<tr>
+<td>Productos</td>
+<td>$</td>
+</tr>
+<tr>
+<td><?php echo $Producto1; ?></td>
+<td><?php echo $Precio1; ?></td>
+</tr>
+<tr>
+<td><?php echo $Producto2; ?></td>
+<td><?php echo $Precio2; ?></td>
+</tr> 
+<tr>
+<td><?php echo $Producto3; ?></td>
+<td><?php echo $Precio3; ?></td>
+</tr>
+<tr>
+<td>Subtotal</td>
+<td><?php echo $subtotal; ?></td>
+</tr>
+<tr>
+<td>IVA</td>
+<td><?php echo $iva; ?></td>
+</tr>
+<tr>
+<td>Total</td>
+<td><?php echo $total; ?></td>
+</tr>
+</table>
+</body>
+</html>  
